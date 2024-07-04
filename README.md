@@ -4,13 +4,13 @@ This project generates a set of random numbers, filters out the prime numbers, a
 
 ## Build and Run the Project
 
-### 1. Build the Services/Jars
+### I. Build the Services/Jars
 1. Navigate to the project root folder.
 2. Use one of the following commands depending on whether you are using Maven wrapper or a local installation:
    - `mvn clean install` (local installation)
    - `./mvnw clean install` (wrapper)
 
-### 2. Build Docker Images and Run Containers
+### II. Build Docker Images and Run Containers
 To build the service images and spawn them into Docker containers, run:
 ```
 docker compose up -d
